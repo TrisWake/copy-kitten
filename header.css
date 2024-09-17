@@ -1,0 +1,25 @@
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 20px;
+  background-color: rgb(85, 83, 83);
+  }
+  
+  li {
+      float: inline-start;
+      text-align: center;
+  }
+  
+  li a{
+      display: inline;
+      width: 20px;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+  }
+  
+  li a:hover {
+      color: aquamarine;
+  }
